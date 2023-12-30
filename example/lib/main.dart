@@ -530,6 +530,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 key: myKey,
                 items: myItems,
                 compareFn: (i1, i2) => i1.level1 == i2.level1,
+                clearButtonProps: ClearButtonProps(isVisible: true,),
                 popupProps: PopupProps.menu(
                   showSelectedItems: true,
                   interceptCallBacks: true, //important line

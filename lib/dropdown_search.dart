@@ -307,7 +307,7 @@ class DropdownSearchState<T> extends State<DropdownSearch<T>> {
           mainAxisSize: MainAxisSize.min,
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
-            Flexible(
+            Expanded(
               child: Text(
                 _selectedItemAsString(item),
                 style: Theme.of(context).textTheme.titleSmall,
